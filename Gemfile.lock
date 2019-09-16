@@ -11,7 +11,7 @@ GEM
     clamp (0.6.5)
     colored (1.2)
     i18n (0.7.0)
-    json (1.8.3)
+    json (1.8.6)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     nokogiri (1.6.7.2)
@@ -37,9 +37,10 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  json (~> 1.8.6)
   rake
   slather
   xcpretty
 
 BUNDLED WITH
-   1.11.2
+   1.17.1
