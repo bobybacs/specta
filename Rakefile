@@ -52,7 +52,7 @@ end
 
 desc 'Run tests'
 task :test do |t|
-  execute "xcrun xcodebuild test -workspace Specta.xcworkspace -scheme Specta GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES"
+  execute "xcrun xcodebuild test -workspace Specta.xcworkspace -scheme Specta -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES"
 end
 
 desc 'clean'
